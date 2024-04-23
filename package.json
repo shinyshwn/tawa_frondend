@@ -1,0 +1,51 @@
+{
+  "name": "users_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server -d eval --progress --hot --color --config ./webpack.config.js ",
+    "dev1": "webpack-dev-server -d eval --progress --color --config ./webpack.config.js ",
+    "build": "NODE_ENV=production webpack --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.7.0",
+    "@babel/runtime": "^7.18.3",
+    "classnames": "2.3.1",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.1",
+    "prop-types": "^15.8.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-highlight-words": "^0.18.0",
+    "react-router": "6.3.0",
+    "react-router-dom": "6.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.17.6",
+    "@babel/core": "7.17.9",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "babel-loader": "8.2.5",
+    "clean-webpack-plugin": "4.0.0",
+    "css-loader": "6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "5.5.0",
+    "jest": "28.1.0",
+    "nodemon": "^2.0.16",
+    "papaparse": "5.3.2",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "3.3.1",
+    "superagent": "^7.1.6",
+    "supertest": "^6.2.3",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.8.1"
+  },
+  "keywords": [],
+  "author": "Arthor",
+  "license": "ISC"
+}
